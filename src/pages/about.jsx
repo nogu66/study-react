@@ -10,9 +10,9 @@ export default function Home() {
 			<Head>
 				<title>About Page</title>
 			</Head>
-			<Header></Header>
-			<Main page="about"></Main>
-			<Footer></Footer>
+			<Header/>
+			<Main page="about"/>
+			<Footer/>
 		</div>
 	);
 }
