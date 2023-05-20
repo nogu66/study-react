@@ -8,11 +8,10 @@ export default function Home() {
 	return (
 		<div className={styles.container}>
 			<Head>
-				<title>Index Page</title>
-				<link rel="icon" href="/favicon.ico" />
+				<title>About Page</title>
 			</Head>
 			<Header></Header>
-			<Main page="index"></Main>
+			<Main page="about"></Main>
 			<Footer></Footer>
 		</div>
 	);
