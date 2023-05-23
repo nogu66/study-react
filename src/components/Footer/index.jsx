@@ -1,6 +1,6 @@
-import classes from 'src/components/Footer/Footer.module.css';
+import classes from "src/components/Footer/Footer.module.css";
 
-export function Footer() {
+export const Footer = () => {
 	return (
 		<footer className={classes.footer}>
 			<a
@@ -8,9 +8,9 @@ export function Footer() {
 				target="_blank"
 				rel="noopener noreferrer"
 			>
-				Powered by{' '}
+				Powered by{" "}
 				<img src="/vercel.svg" alt="Vercel" className={classes.logo} />
 			</a>
 		</footer>
 	);
-}
+};
